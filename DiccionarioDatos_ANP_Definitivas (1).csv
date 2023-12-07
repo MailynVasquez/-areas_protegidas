@@ -1,0 +1,21 @@
+﻿VARIABLE;DESCRIPCIÓN;TIPO DE DATO;TAMAÑO;RECURSO RELACIONADO;INFORMACIÓN ADICIONAL
+FECHA_CORTE;Fecha de corte de información;Numérico;8;;Formato: aaaammdd
+ANP_CATE;Categoría de uso de la Área Natural Protegida;Alfanumérico;50;;
+ANP_CODI;Código del Área Natural Protegida;Alfanumérico;10;;
+ANP_NOMB;Nombre del Área Natural Protegida;Alfanumérico;255;;
+ANP_SECT;Sector del Área Natural Protegida;Alfanumérico;20;;
+ANP_UBPO;Ubicación Política que pertenece el Área Natural Protegida;Alfanumérico;255;;
+ANP_SULEG;Superficie legal del Área Natural Protegida, expresado en hectáreas (ha);Numérico;16;;
+ANP_UICN;Categoría Unión Internacional para la Conservación de la Naturaleza - UICN;Alfanumérico;255;;
+ANP_BALEC;Base legal de creación del Área Natural Protegida;Alfanumérico;255;;
+ANP_FELEC;Fecha legal de creación del Área Natural Protegida;Numérico;8;;Formato: aaaammdd
+ANP_BALEM;Base legal de modificación del Área Natural Protegida;Alfanumérico;255;;
+ANP_FELEM;Fecha legal de modificación del Área Natural Protegida;Numérico;8;;Formato: aaaammdd
+ANP_WDPAID;Código de WDPA (World Database on Protected Areas (WDPA) | IUCN);Alfanumérico;50;;
+UBIGEO1, …, UBIGEO30;"Código de Ubicación Geografica que denotan ""DDppdd"" (Departamento, provincia,distrito)";Alfanumérico;6;Fuente INEI;
+DEPARTAMENTO1, …, DEPARTAMENTO30;Nombre de departamento según la ubicación del Área Natural Protegida;Alfanumérico;50;Fuente INEI;
+PROVINCIA1, …, PROVINCIA30;Nombre de provincia según la ubicación del Área Natural Protegida;Alfanumérico;50;Fuente INEI;
+DISTRITO1, …, DISTRITO30;Nombre de distrito según la ubicación del Área Natural Protegida;Alfanumérico;50;Fuente INEI;
+;;;;;
+;;;;;
+;;;;;
